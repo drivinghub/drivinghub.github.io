@@ -13339,6 +13339,13 @@ a.text-dark:focus {
     color: black !important
 }
 
+.text-green {
+    color: greenyellow !important
+}
+.bg-green{
+    background-color:  rgba(60, 212, 88, 0.6)
+}
+
 .text-white-50 {
     color: rgba(255, 255, 255, 0.5) !important
 }
