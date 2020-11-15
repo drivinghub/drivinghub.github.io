@@ -283,24 +283,34 @@
                 <span aria-hidden="true">×</span>
               </button>
               <form class="text-center">
-                <h4 class="mb-5">Become a member</h4>
+                <h4 class="mb-5">Enrollment Form</h4>
                 <div class="form-group">
-                  <input class="form-control" type="text" name="name" placeholder="Your Name">
+                  <input class="form-control" type="text" name="name" placeholder="Your Full Name">
                 </div>
-  
+                
                 <div class="form-group">
                   <input class="form-control" type="email" name="email" placeholder="Email Address">
                 </div>
-  
+                
                 <div class="form-group">
-                  <input class="form-control" type="password" name="password" placeholder="Password">
+                  <input class="form-control" type="text" placeholder="Package: Iron Package" readonly>
                 </div>
-  
-                <button class="btn btn-lg btn-block btn-primary" type="submit">Register</button>
+                
+                <div class="form-group">
+                  <input class="form-control" type="text" name="location" placeholder="Location in GTA?">
+                </div>
+
+                <div class="form-group">
+                  <textarea class="form-control" type="text" name="message" placeholder="Optional Message">Optional Message</textarea>
+                  
+                </div>
+                <div data-provide="recaptcha"></div>
+
+                <button class="btn btn-lg btn-block btn-primary" type="submit">Send Form</button>
   
                 <hr>
   
-                <p class="small mb-0">By registering, you are agree to our <a href="#">terms</a>.</p>
+                
               </form>
             </div>
   
