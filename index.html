@@ -40,6 +40,7 @@
             <a class="nav-link" href="#packages">Packages</a>
             <a class="nav-link" href="#plans">Custom Plans</a>
             <a class="nav-link" href="#reviews">Reviews</a>
+            <a class="nav-link" href="#contact-us">Contact Us</a>
             
           </nav>
         </section>
@@ -53,9 +54,9 @@
       <div class="container text-center">
 
         <div class="row align-items-center h-100">
-          <div class="col-lg-6">
+          <div class="col-lg-7" id="home">
 
-            <h1><strong>Driving Hub</strong></h1>
+            <h1><strong>Driving Hub | Smart Driving School</strong></h1>
             <h2>Creating <span class="text-primary mt-2 text-green" data-typing="Safe, Responsible, Defensive"></span><span class="typed-cursor typed-cursor--blink"></span>Drivers</h2>
             <br>
             
@@ -122,18 +123,18 @@
                 <h4 class="mb-5">Package Selection Form</h4>
                 
                 <div class="form-group">
-                  <input class="form-control" type="text" name="name" placeholder="Full Name">
+                  <input class="form-control" type="text" name="name" placeholder="Full Name" required>
                 </div>
                 
                 <div class="form-group">
-                  <input class="form-control" type="email" name="email" placeholder="Email Address">
+                  <input class="form-control" type="email" name="email" placeholder="Email Address required">
                 </div>
                 <div class="form-group">
-                  <input class="form-control" type="phone" name="phone" placeholder="Phone (Optional)">
+                  <input class="form-control" type="phone" name="phone" placeholder="Phone" required>
                 </div>
                                                 
                 <div class="form-group">
-                  <input class="form-control" type="text" name="location" placeholder="Major Intersection & City">
+                  <input class="form-control" type="text" name="location" placeholder="Major Intersection & City" required>
                 </div>
 
                 <div class="form-group">
@@ -271,14 +272,18 @@
             </div> -->
 
 
-            <div class="col-lg-4" id="pricing-section">
+            <div class="col-lg-6" id="pricing-section">
               <div class="pricing-3" style="background-color: hsl(213, 4%, 57%, 70%);">
                 <h6 class="plan-name">Bronze</h6>
                 <h2 class="price">$499</h2>
-                <ul>
-                  <li>30 Hours online class</li>
-                  <li>10 Hours in car</li>
-                  <li>MTO Completion Certificate</li>
+                <ul class="text-left pl-5">
+                
+                  <li><i class="ti-check mr-2 text-green"></i><span>30 Hours online class</span></li>
+                  <li><i class="ti-check mr-2 text-green"></i><span>10 Hours 1:1 in vehicle session</span></li>
+                  <li><i class="ti-check mr-2 text-green"></i><span>Advanced intersection techniques</span></li>
+                  <li><i class="ti-check mr-2 text-green"></i><span>Highway and freeway driving considerations</span></li>
+                  <li><i class="ti-check mr-2 text-green"></i><span>Collision avoidance and basis evasive maneuvers</span></li>
+                  <li><i class="ti-check mr-2 text-green"></i><span>MTO Completion Certificate</span></li>
                 </ul>
                 <br>
                 <button class="btn btn-round btn-outline-success w-200" type="button" data-toggle="modal" data-target="#modal-bronze">Enroll Now</button>
@@ -286,44 +291,57 @@
             </div>
 
 
-            <div class="col-lg-4">
+            <div class="col-lg-6">
               
               <div class="pricing-3 popular text-black" >
                 <span class="popular-tag">Popular</span>
                 <h6 class="plan-name text-black font-weight-900">Silver</h6>
                 <h2 class="price" style="color: #3CD458;">$699</h2>
-                <ul>
-                  <li>30 Hours online class</li>
-                  <li>12 Hours in car + Road Test</li>
-                  <li>MTO Completion Certificate</li>
+                <ul class="text-left pl-5">
+                  <li><i class="ti-check mr-2 text-black"></i><span>30 Hours online class</span></li>
+                  <li><i class="ti-check mr-2 text-black"></i><span>12 Hours in car + Road Test</span></li>
+                  <li><i class="ti-check mr-2 text-black"></i><span>Advanced intersection techniques</span></li>
+                  <li><i class="ti-check mr-2 text-black"></i><span>Highway and freeway driving considerations</span></li>
+                  <li><i class="ti-check mr-2 text-black"></i><span>Collision avoidance and basis evasive maneuvers</span></li>
+                  <li><i class="ti-check mr-2 text-black"></i><span>MTO Completion Certificate</span></li>
+                 
                 </ul>
                 <br>
                 <button class="btn btn-round btn-outline-success w-200" type="button" data-toggle="modal" data-target="#modal-silver">Enroll Now</button>
               </div>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-6">
               <div class="pricing-3" style="background-color: hsl(213, 4%, 57%, 70%);>
                 <h6 class="plan-name">Gold</h6>
                 <h2 class="price">$849</h2>
-                <ul>
-                  <li>30 Hours online class</li>
-                  <li>15 Hours in car + Road Test</li>  
-                  <li>MTO Completion Certificate</li>
+                <ul class="text-left pl-5">
+                  <li><i class="ti-check mr-2 text-green"></i><span>30 Hours online class</span></li>
+                  <li><i class="ti-check mr-2 text-green"></i><span>15 Hours in car + Road Test</span></li>
+                  <li><i class="ti-check mr-2 text-green"></i><span>Advanced intersection techniques</span></li>
+                  <li><i class="ti-check mr-2 text-green"></i><span>Highway and freeway driving considerations</span></li>
+                  <li><i class="ti-check mr-2 text-green"></i><span>Collision avoidance and basis evasive maneuvers</span></li>
+                  <li><i class="ti-check mr-2 text-green"></i><span>MTO Completion Certificate</span></li>
+                  
                 </ul>
                 <br>
                 <button class="btn btn-round btn-outline-success w-200" type="button" data-toggle="modal" data-target="#modal-gold">Enroll Now</button>
               
               </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-6">
               <div class="pricing-3" style="background-color: hsl(213, 4%, 57%, 70%);>
                 <h6 class="plan-name">Diamond</h6>
                 <h2 class="price">$1,099</h2>
-                <ul>
-                  <li>30 Hours Online class</li>
-                  <li>20 Hours in car + Road Test</li>
-                  <li>MTO Completion Certificate</li>
+                <ul class="text-left pl-5">
+                 
+                  <li><i class="ti-check mr-2 text-green"></i><span>30 Hours Online class</span></li>
+                  <li><i class="ti-check mr-2 text-green"></i><span>20 Hours in car + Road Test</span></li>
+                  <li><i class="ti-check mr-2 text-green"></i><span>Advanced intersection techniques</span></li>
+                  <li><i class="ti-check mr-2 text-green"></i><span>Highway and freeway driving considerations</span></li>
+                  <li><i class="ti-check mr-2 text-green"></i><span>Collision avoidance and basis evasive maneuvers</span></li>
+                  <li><i class="ti-check mr-2 text-green"></i><span>MTO Completion Certificate</span></li>
+                 
                 </ul>
                 <br>
                 <button class="btn btn-round btn-outline-success w-200" type="button" data-toggle="modal" data-target="#modal-diamond">Enroll Now</button>
@@ -356,19 +374,23 @@
               <form class="text-center" action="https://mailthis.to/drivinghubadmin" method="POST">
                 <h4 class="mb-5">Iron Enrollment Form</h4>
                 <div class="form-group">
-                  <input class="form-control" type="text" name="name" placeholder="Full Name">
+                  <input class="form-control" type="text" name="name" placeholder="Full Name" required>
                 </div>
                 
                 <div class="form-group">
-                  <input class="form-control" type="email" name="email" placeholder="Email Address">
+                  <input class="form-control" type="email" name="email" placeholder="Email Address" required>
                 </div>
                 
                 <div class="form-group">
                   <input class="form-control" type="text" placeholder="Package: Iron Package" readonly>
                 </div>
+
+                <div class="form-group">
+                  <input class="form-control" type="phone" name="phone" placeholder="Phone" required>
+                </div>
                 
                 <div class="form-group">
-                  <input class="form-control" type="text" name="location" placeholder="Major Intersection & City">
+                  <input class="form-control" type="text" name="location" placeholder="Major Intersection & City" required>
                 </div>
 
                 <div class="form-group">
@@ -403,11 +425,11 @@
               <form class="text-center" action="https://mailthis.to/drivinghubadmin" method="POST">
                 <h4 class="mb-5">Bronze Enrollment Form</h4>
                 <div class="form-group">
-                  <input class="form-control" type="text" name="name" placeholder="Full Name">
+                  <input class="form-control" type="text" name="name" placeholder="Full Name" required>
                 </div>
                 
                 <div class="form-group">
-                  <input class="form-control" type="email" name="email" placeholder="Email Address">
+                  <input class="form-control" type="email" name="email" placeholder="Email Address" required>
                 </div>
                 
                 <div class="form-group">
@@ -415,7 +437,11 @@
                 </div>
                 
                 <div class="form-group">
-                  <input class="form-control" type="text" name="location" placeholder="Major Intersection & City">
+                  <input class="form-control" type="phone" name="phone" placeholder="Phone" required>
+                </div>
+
+                <div class="form-group">
+                  <input class="form-control" type="text" name="location" placeholder="Major Intersection & City" required>
                 </div>
 
                 <div class="form-group">
@@ -450,19 +476,23 @@
               <form class="text-center" action="https://mailthis.to/drivinghubadmin" method="POST">
                 <h4 class="mb-5">Silver Enrollment Form</h4>
                 <div class="form-group">
-                  <input class="form-control" type="text" name="name" placeholder="Full Name">
+                  <input class="form-control" type="text" name="name" placeholder="Full Name" required>
                 </div>
                 
                 <div class="form-group">
-                  <input class="form-control" type="email" name="email" placeholder="Email Address">
+                  <input class="form-control" type="email" name="email" placeholder="Email Address" required>
                 </div>
                 
                 <div class="form-group">
                   <input class="form-control" type="text" placeholder="Package: Silver Package" readonly>
                 </div>
+
+                <div class="form-group">
+                  <input class="form-control" type="phone" name="phone" placeholder="Phone" required>
+                </div>
                 
                 <div class="form-group">
-                  <input class="form-control" type="text" name="location" placeholder="Major Intersection & City">
+                  <input class="form-control" type="text" name="location" placeholder="Major Intersection & City" required>
                 </div>
 
                 <div class="form-group">
@@ -497,19 +527,23 @@
               <form class="text-center" action="https://mailthis.to/drivinghubadmin" method="POST">
                 <h4 class="mb-5">Gold Enrollment Form</h4>
                 <div class="form-group">
-                  <input class="form-control" type="text" name="name" placeholder="Full Name">
+                  <input class="form-control" type="text" name="name" placeholder="Full Name" required>
                 </div>
                 
                 <div class="form-group">
-                  <input class="form-control" type="email" name="email" placeholder="Email Address">
+                  <input class="form-control" type="email" name="email" placeholder="Email Address" required>
                 </div>
                 
                 <div class="form-group">
                   <input class="form-control" type="text" placeholder="Package: Gold Package" readonly>
                 </div>
+
+                <div class="form-group">
+                  <input class="form-control" type="phone" name="phone" placeholder="Phone" required>
+                </div>
                 
                 <div class="form-group">
-                  <input class="form-control" type="text" name="location" placeholder="Major Intersection & City">
+                  <input class="form-control" type="text" name="location" placeholder="Major Intersection & City" required>
                 </div>
 
                 <div class="form-group">
@@ -544,7 +578,7 @@
               <form class="text-center" action="https://mailthis.to/drivinghubadmin" method="POST">
                 <h4 class="mb-5">Diamond Enrollment Form</h4>
                 <div class="form-group">
-                  <input class="form-control" type="text" name="name" placeholder="Full Name">
+                  <input class="form-control" type="text" name="name" placeholder="Full Name" required>
                 </div>
                 
                 <div class="form-group">
@@ -553,6 +587,10 @@
                 
                 <div class="form-group">
                   <input class="form-control" type="text" placeholder="Package: Diamond Package" readonly>
+                </div>
+
+                <div class="form-group">
+                  <input class="form-control" type="phone" name="phone" placeholder="Phone" required>
                 </div>
                 
                 <div class="form-group">
@@ -839,7 +877,7 @@
                 </div>
                 
                 <div class="form-group">
-                  <p>Select package of interest</p>
+                  <p>Select a custom plan below</p>
                   <select class="form-control form-control-sm" placeholder="package of interest" >
                     <option>Bronze - $499 + Tax + MTO fee</option>
                     <option>Silver - $699 + Tax + MTO fee</option>
@@ -892,7 +930,7 @@
                 </div>
                 
                 <div class="form-group">
-                  <p>Select package of interest</p>
+                  <p>Select a custom plan below</p>
                   <select class="form-control form-control-sm" placeholder="package of interest" >
                     <option>1 Hr Lesson - $40 + Tax + MTO Fee</option>
                     <option>1 Hr Lesson & Road Test $145 + Tax + MTO Fee</option>
@@ -949,7 +987,7 @@
                 </div>
                 
                 <div class="form-group">
-                  <p>Select package of interest</p>
+                  <p>Select a custom plan below</p>
                   <select class="form-control form-control-sm" placeholder="package of interest" >
                     <option>1 Hr Lesson $45 + Tax + MTO Fee</option>
                     <option>1 Hr Lesson & Road Test $175 + Tax + MTO Fee</option>
@@ -1068,7 +1106,68 @@
       
       </section>
 
+      <section>
+        <div id="contact-us" class="section bg-gray">
+          <header class="section-header">
+            <h2>Contact Us</h2>       
+          </header>
+          <div class="container">
+  
+            <div class="row gap-y">
+              <div class="col-md-6">
+  
+                <form action="https://mailthis.to/drivinghubadmin" method="POST" data-form="mailer">
+                  <div class="alert alert-success d-on-success">We received your message and will contact you back soon.</div>
+  
+                  <div class="form-group">
+                    <input class="form-control form-control-lg" type="text" name="name" placeholder="Your Name">
+                  </div>
+  
+                  <div class="form-group">
+                    <input class="form-control form-control-lg" type="email" name="email" placeholder="Your Email Address">
+                  </div>
 
+                  <div class="form-group">
+                    <input class="form-control" type="phone" name="phone" placeholder="Phone" required>
+                  </div>
+  
+                  <div class="form-group">
+                    <textarea class="form-control form-control-lg" name="message" rows="4" placeholder="Your Message"></textarea>
+                  </div>
+                  
+                  <button class="btn btn-lg btn-primary btn-block" type="submit">Send Inquiry</button>
+                </form>
+
+                
+  
+              </div>
+  
+  
+              <div class="col-md-5 ml-auto">
+                <div class="bg-gray h-full p-5">
+                  <p>Give us a call anytime, we try to answer all enquiries within 24 hours on business days.</p>
+  
+                  <hr class="w-20 my-6">
+  
+                   
+                  <div class="font-weight-bold">
+                    <span class="d-inline-block w-5 " title="Email">E:</span>
+                    <span class="small-1">support@drivinghub.digital</span>
+                  </div>
+  
+                  <div class="font-weight-bold">
+                    <span class="d-inline-block w-5 " title="Phone">P:</span>
+                    <span class="small-1">647-893-1961</span>
+                  </div>
+  
+                </div>
+              </div>
+            </div>
+  
+  
+          </div>
+        </div>
+      </section>
       
 
 
@@ -1084,7 +1183,7 @@
       <div class="container">
         <div class="row gap-y align-items-center">
 
-          <div class="col-6 col-lg-3">
+          <div class="col-lg-3">
             <a href="../index-2.html"><img src="assets/img/logo-dark.png" alt="logo"></a>
           </div>
 
@@ -1104,12 +1203,15 @@
               <a class="nav-link" href="#packages">Packages</a>
               <a class="nav-link" href="#plans">Custom Plans</a>
               <a class="nav-link" href="#reviews">Reviews</a>
+              
             </div>
           </div>
 
         </div>
       </div>
     </footer><!-- /.footer -->
+
+    <button class="btn btn-circle btn-primary scroll-top"><i class="fa fa-angle-up"></i></button>
 
 
     <!-- Scripts -->
